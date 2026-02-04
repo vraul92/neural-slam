@@ -576,9 +576,7 @@ def generate_sample_video():
 
 # Build interface
 with gr.Blocks(
-    title="Neural SLAM - Real-Time 3D Reconstruction",
-    css=custom_css,
-    theme=gr.themes.Soft(primary_hue="blue", secondary_hue="cyan")
+    title="Neural SLAM - Real-Time 3D Reconstruction"
 ) as demo:
     
     # Hero
@@ -676,8 +674,7 @@ with gr.Blocks(
             gr.Markdown("### 🎨 Interactive 3D View")
             
             plot_output = gr.Plot(
-                label="3D Reconstruction (Drag to rotate, scroll to zoom)",
-                height=550
+                label="3D Reconstruction (Drag to rotate, scroll to zoom)"
             )
     
     # Instructions
@@ -732,5 +729,7 @@ if __name__ == "__main__":
         server_name="0.0.0.0",
         server_port=port,
         share=False,
-        show_error=True
+        show_error=True,
+        css=custom_css,
+        theme=gr.themes.Soft(primary_hue="blue", secondary_hue="cyan")
     )
