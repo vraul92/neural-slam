@@ -6,9 +6,9 @@ sdk: docker
 app_port: 7860
 ---
 
-# 🎯 Neural SLAM
+# Neural SLAM
 
-Real-time 3D reconstruction with stunning Apple-style design.
+Real-time 3D reconstruction with interactive visualization.
 
 ## 🌐 Live Demo
 
@@ -16,28 +16,29 @@ Real-time 3D reconstruction with stunning Apple-style design.
 
 ## ✨ Features
 
-- ⚡ **Real-Time Processing** - Upload frames and see 3D reconstruction instantly
-- 🎨 **Beautiful UI** - Apple-style design with custom CSS
-- 📊 **3D Visualization** - Interactive matplotlib 3D plots
-- 📍 **SLAM Tracking** - Camera pose estimation and trajectory
-- 🔮 **Neural Radiance** - Point cloud generation from 2D images
+- 🎨 **Premium Design** - Beautiful dark interface with gradient accents
+- 🎮 **Interactive 3D** - Rotate, zoom, and pan through reconstructed scenes
+- 📊 **Real-time Processing** - Upload frames and see 3D model instantly  
+- 🎬 **Sample Video** - Download and test with provided sample
+- 🎯 **SLAM Tracking** - Camera trajectory visualization
 
-## 🚀 How It Works
+## 🚀 Quick Start
 
-1. Upload video frames one by one
-2. Each frame is processed to extract 3D points
-3. Camera trajectory is estimated
-4. Point cloud accumulates over time
+1. **Download the sample video** from the app
+2. **Extract frames** using any video player
+3. **Upload frames one by one** to build the 3D scene
+4. **Interact with the 3D plot** - drag to rotate, scroll to zoom
 
 ## 🛠️ Tech Stack
 
 - **Gradio** - Web interface
-- **Matplotlib** - 3D visualization
-- **NumPy/SciPy** - Image processing
-- **Docker** - Deployment
+- **Plotly** - Interactive 3D visualization
+- **OpenCV** - Image processing
+- **NumPy** - Numerical computations
 
 ## 🤝 Author
 
-**Rahul Vuppalapati** - Senior Data Scientist
+**Rahul Vuppalapati**
 - GitHub: https://github.com/vraul92
 - LinkedIn: https://linkedin.com/in/vrc7
+- Previously: Apple, Walmart, IBM
